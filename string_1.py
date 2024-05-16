@@ -44,15 +44,3 @@ def replace_email(old="gmail.com", new="python.com"):
 
 replace_email()
 
-
-
-
-
-
-
-
-
-
-
-
-
