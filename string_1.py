@@ -35,12 +35,12 @@ def string_indexing() :
 def replace_email(old="gmail.com", new="python.com"):
     email = ["anirudha@gmail.com", "ani@gmail.com"]
     for e in email:
-        if "@" + old in email :
-            index = email.index("@" + old)
-            new_email = email[:index] + "@" + new
-            email = new_email
+        if "@" + old in e :
+            index = e.index("@" + old)
+            new_email = e[:index] + "@" + new
+            e = new_email
+            email = e 
     print(email)
-
 
 replace_email()
 
