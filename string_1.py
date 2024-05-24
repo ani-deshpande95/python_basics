@@ -42,5 +42,27 @@ def replace_email(old="gmail.com", new="python.com"):
             email = e 
     print(email)
 
-replace_email()
+# replace_email()
+
+
+def stringMethods() : 
+    a = "LOWER"
+    print(a.lower())
+
+    a.upper()
+
+    b = "Test slice       ...      "
+    print(b.strip())            # Will remove the spaces at both ends of the string
+
+    b.startswith("t")              # return boolean according to the value provide
+    b.endswith("E")                # return boolean according to the value provide
+
+    b.isnumeric()                   # return boolena if it contains numbers entirely
+
+    print(" a ".join(["bb", "cc", "dd", "ee"]))               # join string with each string present in join requires list if passing multiple strings
+
+    print("Test, test, test".split(","))            # It will split the string using geven parameter, by default it will take space  
+    
+
+stringMethods()
 

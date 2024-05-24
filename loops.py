@@ -1,6 +1,6 @@
 # x = 0
 
-# while x < 5:
+# while x < 5:                                     # While loop will keep executing until while condtion becomes false
 #     print("Not there yet, x = " + str(x))
 #     x += 1
 
