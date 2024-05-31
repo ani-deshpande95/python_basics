@@ -31,43 +31,55 @@ def whileloop_3() :
         x = x + 1                           # increment condition                
     print("End..",x)                        # End / return condition
 
-whileloop_3()
+# whileloop_3()
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------------- #
 
+def whileloop_4() :
+    a = 5
+    while a < 10 :
+        print("Hello.....")
+        a += 1
 
 
+# whileloop_4()
+
+# ------------------------------------------------------------------------------------------------------------------------------------------------------- #
+
+def whileloop_5() :
+    x = 1
+    sum = 0
+
+    while x <= 10 :                                    # This loop will execute first and will set the x value to 10
+        sum = sum + x
+        x += 1
+
+    
+    product = 1     
+    # x = 1                                         
+    print("x in product...........", x)                 # Here x value is already 10
+    while x <= 10 :                                      # This loop will not get executed as while condition becomes false
+        print("x in product...........", x)             # user may need to initialize variable again if want to use same variable
+        product = product * x
+        x += 1
+
+    print(sum , product)
 
 
-
-
-
-
+# whileloop_5()
 
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------------- #
 
+def infiniteLoop() : 
+    x = 0
+    while x % 2 == 0 :  
+        x = x / 2                       # 0 / 2 = 0 
+        print("H")                      # Hence this will go into infinite loop to avoid this we can use if conditions
+                                        # Or mat be we can another condition to this while e.g. while x != 0 and x % 2 == 0
 
 
-
-
-
-
-
-
-
-
-# ------------------------------------------------------------------------------------------------------------------------------------------------------- #
-
-
-
-
-
-
-
-
-
-
+infiniteLoop()
 
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------------- #
