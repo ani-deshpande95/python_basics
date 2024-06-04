@@ -12,3 +12,15 @@ def summationNumber() :
 
 
 summationNumber()
+
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------------#
+
+def summation(number):
+    sum = 0
+    for x in range(number+1):
+        sum = sum + x
+
+    print(sum)
+
+
+summation(5) 
