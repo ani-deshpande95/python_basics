@@ -30,15 +30,22 @@ def to_celcius(temp):
     return (temp-32) * 5/9
 
 def forloops_4():
-    for x in range(1, 101, 10):
-        print("temp of : " + x + "= " + to_celcius(x))
+    for x in range(1, 102, 10):
+        print("Temp of : " + str(x) + " = " + str(to_celcius(x)))
 
 
-forloops_4(97)
+# forloops_4()
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------------- #
 
+def nested_loop_5():
+    for left in range(7):
+        for right in range(left, 7):
+            print(left, end  = " ")
+        print()
 
+
+nested_loop_5()
 
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------------- #
