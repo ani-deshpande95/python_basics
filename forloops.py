@@ -41,20 +41,38 @@ def forloops_4():
 def nested_loop_5():
     for left in range(7):
         for right in range(left, 7):
-            print(left, end  = " ")
+            print(left, end=" ")
         print()
 
 
-nested_loop_5()
+# nested_loop_5()
 
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------------- #
 
+def loop_string() :
+    print(type("Test......."))
+    print(type('Test.........'))
+    print(type('a'))                           # there is no char data type in python it will defined as string only
+    print(type(123))
+    print(type('22343243'))                    # python will consider this as string only
+    print(type("45345"))                       # python will consider this as string only
+
+    #print("Test of ' + 'single quote' + "in python")  # Mixing of single and double quote in python is not allowed
+
+
+# loop_string()
 
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------------- #
 
+def forloop_6():
+    greetings = "Hello"
+    for c in greetings:
+        print("...........", c)
 
+
+forloop_6()
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------------- #
 
