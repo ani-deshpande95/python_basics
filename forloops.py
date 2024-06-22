@@ -72,17 +72,29 @@ def forloop_6():
         print("...........", c)
 
 
-forloop_6()
+# forloop_6()
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------------- #
 
+def team_schedule():
+    teams = ['Mumbai', 'Chennai', 'Delhi', 'Kolkatta']
+    for home_team in teams :
+        for away_team in teams : 
+            if home_team != away_team:
+                print(home_team + " vs " + away_team)
 
 
+# team_schedule()
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------------- #
 
+def loop_greetings(friends):
+    for friend in friends:
+        print("Hello "+friend)
 
 
+# loop_greetings("Test.....")                 #This will consider each char as string
+# loop_greetings(['Ani', 'Vinod', 'Rajan'])   #This will consider element in list as loop element 
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------------- #
 
